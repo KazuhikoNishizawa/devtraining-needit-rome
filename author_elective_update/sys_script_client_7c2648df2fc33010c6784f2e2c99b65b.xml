@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This is my first javascript in servicenow</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>my first script</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	alert("start");
+   //Type appropriate comment here, and begin script below
+	alert("TEST");
+	var elem = document.getElementById("x_58872_needit_needit.number");
+	alert("test");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 05:29:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c2648df2fc33010c6784f2e2c99b65b</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>my first script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_7c2648df2fc33010c6784f2e2c99b65b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 08:22:01</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0ff763fedbdb1b04ff27d5b0cf961960</instance_id>
+        <instance_name>dev65657</instance_name>
+        <name>sys_script_client_7c2648df2fc33010c6784f2e2c99b65b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;This is my first javascript in servicenow&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;my first script&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	alert("start");
+   //Type appropriate comment here, and begin script below
+	alert("TEST");
+	var elem = document.getElementById("x_58872_needit_needit.number");
+	alert("test");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-12 05:29:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7c2648df2fc33010c6784f2e2c99b65b&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;my first script&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7c2648df2fc33010c6784f2e2c99b65b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-12 08:22:01&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1298703424</payload_hash>
+        <record_name>my first script</record_name>
+        <reverted_from/>
+        <source>e881f6a92f473010c6784f2e2c99b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 08:22:01</sys_created_on>
+        <sys_id>5b1eac532f873010c6784f2e2c99b6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c73981e0b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 08:22:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>db1e285fdb4730103e8f08693eb2efd2</update_guid>
+        <update_guid_history>db1e285fdb4730103e8f08693eb2efd2:-1298703424,110d601340873010dd2159b43e767c26:-1003353799,8e6a685f794730102e2ea9a257e739b1:-221947621,d03aacdbf047301013620fa651ba816a:-1416989253,7af0e097fb473010bdb6405638340835:-1015993745,07c02097e7473010827e195810eb6019:-255405393,4dbe541747473010a21be42028a086b9:-314763619,4af7189f46073010170d106bb9fe5bf7:714289952,dde7901f460730100a70e2e03f823b94:-1919755111,a477545fbf07301036a52b8e286fc382:-830442560,0f56d01f8d07301047cd1ed911b1f17f:183573,f325d4dbd4073010d2686c8ba6763702:-556907996,e6a2509b0e073010a09302c1a028f441:-1925427539,d682585bde07301053bcad9f9073feb0:1677358093,e22054d7920730106cda4ff41bebb587:-1730320956,9600dcd797073010819525ed682cff28:-556907996,1b5f44d7ff0730101638de2a502c0fed:811457360,00bc8817d60730103eaeb76f92bbb110:13345289,b72c4817d50730107df61e581972b1ab:-1212037103,655b0cd3aa073010bb8362a0250e13fe:-273004989,fd1bc8d39b073010fc3488099d5aa97b:1139144793,72dac4d34c0730103a68a8904bb8ccee:-288062237,7a3980937507301050db5ae5c4b1a8d8:-1086266453,6aa84c132c073010e805701075d35b6f:1040429937,92b6041f15c330107352f3297975a4e9:1757072815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 00:27:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>460e2a0ad33f49d39620b74ecc1285a1</sys_id>
+        <sys_metadata>7c2648df2fc33010c6784f2e2c99b65b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my first script</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">264486a52fc33010c6784f2e2c99b686</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_7c2648df2fc33010c6784f2e2c99b65b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7c2648df2fc33010c6784f2e2c99b65b">5b1eac532f873010c6784f2e2c99b6d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 00:27:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
