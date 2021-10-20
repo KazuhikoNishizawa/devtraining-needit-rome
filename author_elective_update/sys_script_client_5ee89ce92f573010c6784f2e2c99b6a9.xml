@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+//	alert("start-" + g_form.getValue("number"));
+	if (g_form.getValue("number").startsWith("NI005012")) {
+		g_form.addDecoration("short_description", "icon-tree", "red");
+		g_form.addDecoration("short_description", "icon-book", "blue");
+		g_form.addErrorMessage("This is test of error message");
+		g_form.addInfoMessage("This is test of info message");
+		g_form.addFormMessage("???", "info");
+	} else if (g_form.getValue("number") == "NI005013") {
+		g_form.clearAllFormMessages();
+	}
+//		g_form.removeDecoration("short_description", "icon-tree","red");
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-19 06:37:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ee89ce92f573010c6784f2e2c99b6a9</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_5ee89ce92f573010c6784f2e2c99b6a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-19 07:16:33</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0ff763fedbdb1b04ff27d5b0cf961960</instance_id>
+        <instance_name>dev65657</instance_name>
+        <name>sys_script_client_5ee89ce92f573010c6784f2e2c99b6a9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+//	alert("start-" + g_form.getValue("number"));
+	if (g_form.getValue("number").startsWith("NI005012")) {
+		g_form.addDecoration("short_description", "icon-tree", "red");
+		g_form.addDecoration("short_description", "icon-book", "blue");
+		g_form.addErrorMessage("This is test of error message");
+		g_form.addInfoMessage("This is test of info message");
+		g_form.addFormMessage("???", "info");
+	} else if (g_form.getValue("number") == "NI005013") {
+		g_form.clearAllFormMessages();
+	}
+//		g_form.removeDecoration("short_description", "icon-tree","red");
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-19 06:37:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5ee89ce92f573010c6784f2e2c99b6a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_5ee89ce92f573010c6784f2e2c99b6a9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-19 07:16:33&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1279045220</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>e881f6a92f473010c6784f2e2c99b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-19 07:16:34</sys_created_on>
+        <sys_id>854228e12f973010c6784f2e2c99b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c9768b4550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-19 07:16:34</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cd4228e1229730104bfc82fdee631dde</update_guid>
+        <update_guid_history>cd4228e1229730104bfc82fdee631dde:-1279045220,c68128e15c97301049e80516a09b630f:1293958905,efd0eca152973010d645fb7966f54e80:1532987135,0b5028a193973010f24fc1e383639090:-747794142,cc7f9861a89730101a2de901d151daae:-1419612402,484fd82126973010f847ad1ab0e35dd4:-594628264,d71ed02176973010dae59b118f435fb5:-1987161319,96ed1021d9973010fc550c218a94d598:-1111778794,6f9d50218297301099e3da76ac83886c:-1947066995,1f8d14eddb5730107d761e7cecb4af07:-1375564678,3e6d10212c97301034f3c5d22ca26722:-1501613926,853dd0ed6e573010cc740c847a110556:-381719688,ef1d18ed715730104dfe91b37f008f00:-698145735,f2bcd0ed1e5730102dfb0b6902fffb16:195665645,fa9bdc6d1357301063da579f127b0884:-1172180775,811b5c6d125730105a183aac795067b1:-1285448669,0e0a5c2d315730107f93c7add33602c4:-481551173,3ed9982d9557301060f0986f6a332522:1393773978,f2b9982da0573010a7f2c3801698971b:-1521837795,7569d4a95457301084fd2a9a13812e8e:1179949007</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-19 07:46:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>36e5b2adc8104ae0b0ab29b91198ecd9</sys_id>
+        <sys_metadata>5ee89ce92f573010c6784f2e2c99b6a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">264486a52fc33010c6784f2e2c99b686</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_5ee89ce92f573010c6784f2e2c99b6a9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_5ee89ce92f573010c6784f2e2c99b6a9">854228e12f973010c6784f2e2c99b6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-19 07:46:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
